@@ -1,3 +1,4 @@
+print("Please launch said tool from the location you installed it from. some tools may not work correctly.")
 local words = {
     cshutdown = function ()
         os.execute('shutdown /a')

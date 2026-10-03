@@ -1,10 +1,11 @@
 print("Please launch this from your main directory. some tools may not work correctly if not.")
 local words = {
-    cshutdown = function ()
+    cshutdown = function()
         os.execute('shutdown /a')
     end,
     shutdown = function()
-        os.execute('shutdown /s /t 5')
+        os.execute('echo Shutting down your computer in 15 seconds. to cancel this, type cshutdown.')
+        os.execute('shutdown /s /t 15')
     end,
     noob = "not true!",
     scanfs = function()

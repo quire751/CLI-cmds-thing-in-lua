@@ -2,6 +2,7 @@ print("Please launch this from your main directory. some tools may not work corr
 local words = {
     cshutdown = function()
         os.execute('shutdown /a')
+        os.execute('echo Shutdown canceled.')
     end,
     shutdown = function()
         os.execute('echo Shutting down your computer in 15 seconds. to cancel this, type cshutdown.')

@@ -13,7 +13,7 @@ local words = {
         os.execute('dir /s')
     end,
     help = function()
-        print("COMMANDS. scanfs: runs dir /s. shutdown: shuts down your computer in 5 seconds. cshutdown: cancels shutdown by running shutdown /a. motivation: shows you a motivational message i made. Info: tells you what this project is about. exit: exits the script.")
+        print("COMMANDS. scanfs: runs dir /s. shutdown: shuts down your computer in 15 seconds. cshutdown: cancels shutdown by running shutdown /a. motivation: shows you a motivational message i made. Info: tells you what this project is about. exit: exits the script.")
     end,
     motivation = function()
         print("Have fun, Enjoy life, Stop taking everything seriously.")
